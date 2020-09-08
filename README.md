@@ -5,7 +5,8 @@ take a snapshot for repeated use
 ## First Time Install
 
 ### Create Nessus image from Dockerfile
-sudo docker run -p 8834:8834 -d -it nessus:ne
+
+sudo docker build -t nessus:ne .
 
 ### Run Nessus Container
 sudo docker run -p 8834:8834 -d -it nessus:ne
